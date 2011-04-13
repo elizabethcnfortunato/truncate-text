@@ -1,0 +1,14 @@
+require 'fileutils'
+
+dir_project = "C:/Documents and Settings/Administrador/Meus documentos/workspace-pessoal/truncate-text/";
+dir_apache = "C:/Arquivos de programas/Apache Software Foundation/Apache2.2/htdocs/";
+
+while true
+
+  Dir.open(dir_project).each do |filename|
+    FileUtils.cp dir_project + filename, dir_apache unless filename.start_with?(".")
+  end
+  
+  sleep 3 #seconds
+
+end
