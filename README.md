@@ -13,14 +13,18 @@ A fast library using JQuery for truncating text.
 Installing
 -----
 
-<script type="text/javascript" src="/truncate.js" ></script>
+<code><script type="text/javascript" src="/truncate.js" ></script></code>
 
 Usage
 -----
-
+<code>
 <div id="myDiv">CONTENT HERE</div>
 <script>
 	$("#longText").truncate(1000);
 </script>
+</code>
+		
+		
+
 		
 		
