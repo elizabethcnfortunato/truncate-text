@@ -20,7 +20,7 @@ Usage
 
 &lt;div id="myDiv"&gt;CONTENT HERE&lt;/div&gt;
 &lt;script&gt;
-	$("#longText").truncate(1000);
+	$("#myDiv").truncate(1000);
 &lt;/script&gt;
 		
 		
