@@ -18,10 +18,13 @@ Installing
 Usage
 -----
 
-<div id="myDiv">CONTENT HERE</div>
-<script>
+&lt;div id="myDiv"&gt;CONTENT HERE&lt;/div&gt;
+&lt;script&gt;
 	$("#longText").truncate(1000);
-</script>
+&lt;/script&gt;
+		
+		
+
 		
 		
 
